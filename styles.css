@@ -46,4 +46,5 @@ body {
     pointer-events: none;
     z-index: 1000;
     mix-blend-mode: difference;
+    border-radius:50px;
 }
