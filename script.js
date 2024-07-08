@@ -26,3 +26,5 @@ document.addEventListener('mousemove', function(e) {
         randomColorTrail.remove();
     }, 250);
 });
+
+//newly updated
