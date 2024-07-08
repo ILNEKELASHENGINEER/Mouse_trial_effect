@@ -1,14 +1,16 @@
 body {
     margin: 0;
-    /* padding: ; */
-    height: 100vh;
+    padding-top: 20px; /* Add padding to bring content down */
+    /* height: 200vh; */
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start; /* Align items at the top */
     background: linear-gradient(135deg, #667eea, #764ba2); /* Gradient background */
     color: #fff;
     font-family: 'Roboto', sans-serif;
-    overflow: hidden;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 .container {
